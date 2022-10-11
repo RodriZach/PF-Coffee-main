@@ -22,7 +22,7 @@ Puedes acceder al sitio web desde el siguiente link: [Coffee´s Order](https://c
 - Practicar métodos de SCRUM.
 - Usar y practicar testing.
 
-##Autores
+## Autores
 
 - [Luciana Soledad Diaz](https://www.linkedin.com/in/luciana-soledad-diaz/)
 - [Jonathan Daniel Pérez](https://www.linkedin.com/in/jonathanperezfrontenddeveloper/)
