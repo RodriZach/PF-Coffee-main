@@ -2,6 +2,8 @@
 
 # __Grupal Project - Henry Coffee's Orders__
 <img height="200" src="client/src/assets/logo_coffee.png" />
+<img src="client/src/assets/Coffee1.jpeg" />
+<img src="client/src/assets/Coffee2.jpeg" />
 
 
 ### Proyecto Full Stack de un e-commerce para comidas rápidas. 
