@@ -66,19 +66,19 @@ CREATE DATABASE coffee
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 
-Clone the project
+Clona el proyecto
 
 ```bash
 git clone https://github.com/PF-Coffee-main.git
 ```
 
-Go to the project directory
+En el directorio del proyecto
 
 ```bash
 cd PF-Coffee-main
 ```
 
-Install dependencies in both folders (API and CLIENT)
+Instala las dependencias en ambas carpetas (API y CLIENT)
 
 ```bash
 cd api/
@@ -88,7 +88,7 @@ cd client/
    npm install
 ```
 
-Start the server
+Start el servidor
 
 Front
 ```bash
