@@ -9,7 +9,9 @@ Queremos desarrollar una página que permita dar fluidez y eficiencia en la toma
 El cliente podrá ver la carta y de acuerdo a ella ir eligiendo de forma dinámica los productos a consumir,mediante un carrito de comprars y su medio de pago (Mercado Pago). 
 El administrador del local podrá gestionar movimiento de caja y stock.
 Coffee`s Orders está orientado a satisfacer las necesidades de las cafeterías suscritas a nuestra aplicación y a sus clientes. 
-Utilizaremos herramientas como React, Redux, Sequelize entre otras.
+Utilizamos herramientas como React, Redux, Sequelize entre otras.
+
+Puedes acceder al sitio web desde el siguiente link: [Coffee´s Order](https://coffeemainapp.vercel.app/)
 
 ## Objetivos del Proyecto
 
@@ -19,6 +21,16 @@ Utilizaremos herramientas como React, Redux, Sequelize entre otras.
 - Aprender y practicar el workflow de GIT.
 - Practicar métodos de SCRUM.
 - Usar y practicar testing.
+
+##Autores
+
+- [Luciana Soledad Diaz](https://www.linkedin.com/in/luciana-soledad-diaz/)
+- [Jonathan Daniel Pérez](https://www.linkedin.com/in/jonathanperezfrontenddeveloper/)
+- [Rodrigo Hernández](https://www.linkedin.com/in/rodrigo-hernandez-4a8b5523b/)
+- [Carlos Solá Zambrano](https://www.linkedin.com/in/carlos-sol%C3%A1-zambrano-228093224/)
+- [Néstor Arias Cataldi](https://www.linkedin.com/in/n%C3%A9stor-arias-cataldi-815b4411a/)
+- [Gaspar Pérez](https://www.linkedin.com/in/gaspar-perez-9006a5239/)
+- [Matías Dentoni](https://www.linkedin.com/in/mat%C3%ADas-hern%C3%A1n-dentoni-5a2941125/)
 
 # Correr la App localmente
 ## BoilerPlate
@@ -53,11 +65,41 @@ CREATE DATABASE coffee
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 
-COMMENT ON DATABASE coffee
-    IS 'Proyecto Grupal para soy Henry
-Queremos desarrollar una página que permita dar fluidez y eficiencia en la toma de pedidos y su administración. Siendo ayuda tanto para el cliente como para el administrador del local. El cliente podrá ver la carta y de acuerdo a ella ir eligiendo de forma dinámica los productos a consumir, su medio de pago y la demora estimada. El administrador del local podrá gestionar movimiento de caja y stock. Coffee`s Orders está orientado a satisfacer las necesidades de las cafeterías suscritas a nuestra aplicación y a sus clientes. Utilizaremos herramientas como Prisma, React Native y Redux entre otras.';
+Clone the project
+
+```bash
+git clone https://github.com/PF-Coffee-main.git
 ```
-__Reacordar__
+
+Go to the project directory
+
+```bash
+cd PF-Coffee-main
+```
+
+Install dependencies in both folders (API and CLIENT)
+
+```bash
+cd api/
+   npm install
+cd ..
+cd client/
+   npm install
+```
+
+Start the server
+
+Front
+```bash
+cd client/
+   npm start
+```
+Back
+```bash
+cd api/
+   npm start
+```
+__Recordar__
 
 Reemplazar `postgres` y `SU PASSWORD` con tus propias credenciales para conectarte a postgres.
 Para este caso sería reemplazar el ``PASSWORD``.
@@ -66,6 +108,8 @@ Este archivo va ser ignorado en la subida a github, ya que contiene información
 Adicionalmente será necesario que creen desde psql una base de datos llamada __`coffee`__.
 
 El contenido de `client` fue creado usando: Create React App.
+
+
 
 
 
